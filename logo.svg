@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+
+  <!-- FUNDO -->
+  <defs>
+
+    <!-- Gradiente Neon -->
+    <linearGradient id="neonGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00D9FF"></stop>
+      <stop offset="100%" stop-color="#4364F7"></stop>
+    </linearGradient>
+
+    <!-- Glow -->
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2.5" result="coloredBlur"></feGaussianBlur>
+      <feMerge>
+        <feMergeNode in="coloredBlur"></feMergeNode>
+        <feMergeNode in="SourceGraphic"></feMergeNode>
+      </feMerge>
+    </filter>
+
+  </defs>
+
+  <!-- CARD -->
+  <rect width="64" height="64" rx="16" fill="#081120"></rect>
+
+  <!-- DOCUMENTO -->
+  <path d="M20 14H38L46 22V50H20Z" fill="#0F172A" stroke="url(#neonGradient)" stroke-width="2.5" filter="url(#glow)"></path>
+
+  <!-- DOBRA -->
+  <path d="M38 14V22H46" fill="none" stroke="#00D9FF" stroke-width="2.5" filter="url(#glow)"></path>
+
+  <!-- SETA SUPERIOR -->
+  <path d="M24 34C24 28 40 28 40 34" fill="none" stroke="#00D9FF" stroke-width="3" stroke-linecap="round" filter="url(#glow)"></path>
+
+  <path d="M38 31L41 34L38 37" fill="none" stroke="#00D9FF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" filter="url(#glow)"></path>
+
+  <!-- SETA INFERIOR -->
+  <path d="M40 40C40 46 24 46 24 40" fill="none" stroke="#4364F7" stroke-width="3" stroke-linecap="round" filter="url(#glow)"></path>
+
+  <path d="M26 37L23 40L26 43" fill="none" stroke="#4364F7" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" filter="url(#glow)"></path>
+
+  <!-- BRILHO EXTERNO -->
+  <circle cx="32" cy="32" r="24" fill="none" stroke="#00D9FF22" stroke-width="2"></circle>
+
+</svg>
