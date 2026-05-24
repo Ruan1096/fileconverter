@@ -262,7 +262,7 @@ O projeto foi desenvolvido com foco em:
 * Interface visual moderna
 * Simulação de fluxo real de conversão de arquivos
 
-[https://hix.ai/chat](https://hix.ai/chat)
+
 
 
 
