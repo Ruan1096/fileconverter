@@ -263,3 +263,10 @@ O projeto foi desenvolvido com foco em:
 * Simulação de fluxo real de conversão de arquivos
 
 [https://hix.ai/chat](https://hix.ai/chat)
+
+
+
+PREVIA:
+
+<img width="959" height="539" alt="image" src="https://github.com/user-attachments/assets/31cc6914-8118-4f7d-972d-5d1fd816409b" />
+
